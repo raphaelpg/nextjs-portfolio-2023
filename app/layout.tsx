@@ -1,11 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Exo, Press_Start_2P, Anton, VT323, Monoton, Orbitron } from 'next/font/google'
 import Link from 'next/link'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Exo({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Future & Space',
@@ -19,7 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      {/* <body className={inter.className}> */}
+      <body>
         <Header/>
         <Navbar/>
         {children}

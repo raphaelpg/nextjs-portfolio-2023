@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Monoton&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,11 +28,21 @@ body {
     rgb(var(--background-start-rgb));
   background-size: 40px 40px;
   background-image:
-    linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
+    linear-gradient(to right, grey 0.1px, transparent 1px),
+    linear-gradient(to bottom, grey 0.1px, transparent 1px);
   padding: 0 3em 0 3em;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   grid-template-columns: 1fr;
+  font-family: 'Anton', sans-serif;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 40px pink;
 }
