@@ -1,10 +1,11 @@
+import ItemsContainer from "../components/ItemsContainer"
+
 export default function Projects() {
   return (
-    <main>
-      <div>Projects:</div>
+    <ItemsContainer title="Projects:">
       <div>A</div>
       <div>B</div>
       <div>C</div>
-    </main>
+    </ItemsContainer>
   )
 }

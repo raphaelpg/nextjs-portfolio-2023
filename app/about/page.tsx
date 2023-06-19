@@ -1,9 +1,9 @@
+import ItemsContainer from "../components/ItemsContainer"
+
 export default function About() {
   return (
-    <main>
-      <div>The team:</div>
-      <div>Raphael Pinto aka "Asubi"</div>
-      <div>Full Stack</div>
-    </main>
+    <ItemsContainer title="The team:">
+      <div>Raphael Pinto, Full Stack dev</div>
+    </ItemsContainer>
   )
 }
