@@ -4,7 +4,7 @@ export const stackLogos: {} = {
     "url": "https://aave.com/"
   },
   "aws": {
-    "filename": "aws.jpeg",
+    "filename": "aws.webp",
     "url": "https://aws.amazon.com/"
   },
   "chai": {
@@ -16,15 +16,15 @@ export const stackLogos: {} = {
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   "emailjs": {
-    "filename": "emailjs.jpeg",
+    "filename": "emailjs.webp",
     "url": "https://www.emailjs.com/"
   },
   "ethereum": {
-    "filename": "ethereum.jpeg",
+    "filename": "ethereum.webp",
     "url": "https://ethereum.org/en/"
   },
   "ethers": {
-    "filename": "ethers.jpeg",
+    "filename": "ethers.webp",
     "url": "https://docs.ethers.io/v5/"
   },
   "express": {
@@ -36,39 +36,39 @@ export const stackLogos: {} = {
     "url": "https://docs.filecoin.io/"
   },
   "fleek": {
-    "filename": "fleek.jpeg",
+    "filename": "fleek.webp",
     "url": "https://fleek.co/ipfs-gateway/"
   },
   "formspree": {
-    "filename": "formspree.png",
+    "filename": "formspree.webp",
     "url": "https://formspree.io/"
   },
   "ganache": {
-    "filename": "ganache.jpeg",
+    "filename": "ganache.webp",
     "url": "https://www.trufflesuite.com/ganache"
   },
   "gatsby": {
-    "filename": "gatsby.jpeg",
+    "filename": "gatsby.webp",
     "url": "https://www.gatsbyjs.com/docs/"
   },
   "github": {
-    "filename": "github.jpeg",
+    "filename": "github.webp",
     "url": "https://github.com/raphaelpg"
   },
   "googleplaces": {
-    "filename": "googleplaces.jpeg",
+    "filename": "googleplaces.webp",
     "url": "https://developers.google.com/places/web-service/overview"
   },
   "hardhat": {
-    "filename": "hardhat.jpeg",
+    "filename": "hardhat.webp",
     "url": "https://hardhat.org/getting-started/"
   },
   "heroku": {
-    "filename": "heroku.jpeg",
+    "filename": "heroku.webp",
     "url": "https://www.heroku.com/"
   },
   "highcharts": {
-    "filename": "highcharts.jpeg",
+    "filename": "highcharts.webp",
     "url": "https://www.highcharts.com/"
   },
   "html": {
@@ -80,7 +80,7 @@ export const stackLogos: {} = {
     "url": "https://www.ionos.com/"
   },
   "ipfs": {
-    "filename": "ipfs.jpeg",
+    "filename": "ipfs.webp",
     "url": "https://ipfs.io/"
   },
   "javascript": {
@@ -88,7 +88,7 @@ export const stackLogos: {} = {
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   "jest": {
-    "filename": "jest.png",
+    "filename": "jest.webp",
     "url": "https://jestjs.io/docs/getting-started"
   },
   "jquery": {
@@ -100,7 +100,7 @@ export const stackLogos: {} = {
     "url": "https://jwt.io/introduction"
   },
   "linkedin": {
-    "filename": "linkedin.jpeg",
+    "filename": "linkedin.webp",
     "url": "https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/"
   },
   "metamask": {
@@ -112,7 +112,7 @@ export const stackLogos: {} = {
     "url": "https://www.mongodb.com/2"
   },
   "nft-storage": {
-    "filename": "nft-storage.jpeg",
+    "filename": "nft-storage.webp",
     "url": "https://nft.storage/"
   },
   "nginx": {
@@ -136,7 +136,7 @@ export const stackLogos: {} = {
     "url": "https://www.php.net/"
   },
   "pm2": {
-    "filename": "pm2.jpeg",
+    "filename": "pm2.webp",
     "url": "https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/"
   },
   "polygon": {
@@ -148,7 +148,7 @@ export const stackLogos: {} = {
     "url": "https://www.postgresql.org/"
   },
   "react": {
-    "filename": "react.jpeg",
+    "filename": "react.webp",
     "url": "https://reactjs.org/docs/getting-started.html"
   },
   "sass": {
@@ -160,15 +160,15 @@ export const stackLogos: {} = {
     "url": "https://sharp.pixelplumbing.com/"
   },
   "solidity": {
-    "filename": "solidity.jpeg",
+    "filename": "solidity.webp",
     "url": "https://docs.soliditylang.org/en/latest/"
   },
   "sql": {
-    "filename": "sql.jpeg",
+    "filename": "sql.webp",
     "url": "https://www.w3schools.com/sql/"
   },
   "superfluid": {
-    "filename": "superfluid.jpeg",
+    "filename": "superfluid.webp",
     "url": "https://www.superfluid.finance/"
   },
   "truffle": {
@@ -176,15 +176,15 @@ export const stackLogos: {} = {
     "url": "https://www.trufflesuite.com/docs/truffle/overview"
   },
   "typescript": {
-    "filename": "typescript.png",
+    "filename": "typescript.webp",
     "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
   },
   "web3": {
-    "filename": "web3.jpeg",
+    "filename": "web3.webp",
     "url": "https://web3js.readthedocs.io/"
   },
   "wordpress": {
-    "filename": "wordpress.png",
+    "filename": "wordpress.webp",
     "url": "https://wordpress.org/"
   }
 }

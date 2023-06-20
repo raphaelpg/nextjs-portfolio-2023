@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
+import { stackLogos } from "../projects/stack";
 const images = require.context('../../public', true);
 
 export default function ProjectItem({
@@ -17,16 +18,19 @@ export default function ProjectItem({
   repo: string,
   stack?: string[]
 }) {
-  let projectImg = images(`./${"bucketly_logo.webp"}`).default; 
+
+  let projectImg; 
   try {
-    const logo = images(`./${img}`).default;
-    projectImg = logo;
+    projectImg = images(`./${img}`).default;
   } catch (error) {
+    projectImg = images(`./${"bucketly_logo.webp"}`).default;
   }
-  const imageLink = url.length > 0 ? url : repo;
+
+  const projectHref = url.length > 0 ? url : repo;
+  
   return (
     <span className="w-full flex flex-row gap-5">
-      <Link href={imageLink} target='_blank'>
+      <Link href={projectHref} target='_blank'>
         <Image 
           src={projectImg} 
           alt={title + " logo"}
@@ -44,13 +48,32 @@ export default function ProjectItem({
           <p className="text-lg text-justify">{item}</p>
         ))}
         <span className="flex flex-col">
-          <a className="text-lg underline text-indigo-500 hover:text-pink-500" href={url} target='_blank'>See</a>
-          <a className="text-lg underline text-indigo-500 hover:text-pink-500" href={repo} target='_blank'>Github</a>
+          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See</a>
+          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github</a>
         </span>
         <div className="w-full flex flex-row items-start justify-start pt-10 gap-10">
-          {stack && stack.map((item) => (
-            <span className="text-lg">{item}</span>
-          ))}
+          {stack && stack.map((item) => {
+            let logo;
+            try {
+              logo = images(`./${(stackLogos as any)[item]["filename"]}`).default;
+            } catch (error) {
+              logo = images(`./html.svg`).default;
+            }
+            const stackLogo = (stackLogos as any)[item];
+            return (
+              <Link
+                href={stackLogo?.url}
+                target='_blank'
+                key={item}
+              >
+                <Image
+                  src={logo}
+                  alt={item}
+                  className="w-10"
+                />
+              </Link>
+            )
+          })}
         </div>
       </span>
     </span>
