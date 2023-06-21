@@ -6,7 +6,7 @@ export default function About() {
   const personalImage = images(`./${"pro_2023.webp"}`).default;
 
   const description = [
-    'I develop websites and web applications for clients, advising them on the appropriate technologies to choose that align with their cost requirements and quality goals.',
+    'I develop websites and web applications advising clients on the appropriate technologies to choose that align with their cost requirements and quality goals.',
     'I developed my Web3 and DeFi skills through a blockchain course at Alyra school, as well as through participation in hackathons.',
     'With a creative mindset, I enjoy thinking outside the box to find innovative solutions.'
   ];
@@ -17,7 +17,7 @@ export default function About() {
         <span>
           <h3 className="text-2xl font-bold tracking-wider">Raphael Pinto, Full Stack Developer</h3>
           {description && description.map((item) => (
-            <p className="text-lg text-justify">{item}</p>
+            <p className="text-lg text-justify" key={item}>{item}</p>
           ))}
         </span>
       </span>

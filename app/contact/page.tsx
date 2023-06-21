@@ -6,7 +6,7 @@ import ItemsContainer from '../components/ItemsContainer'
 
 export default function Contact() {
   return (
-    <ItemsContainer title="Contact us:">
+    <ItemsContainer title="Contact:">
       <div>Phone: +33 675 582 722</div>
       <Link 
         target='_blank'

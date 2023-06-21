@@ -30,7 +30,7 @@ export default function ProjectItem({
   const projectHref = url.length > 0 ? url : repo;
   
   return (
-    <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row">
+    <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row" key={title}>
       <ItemImage imageSrc={projectImg} title={title} projectHref={projectHref} />
       <span>
         <h3 className="text-2xl font-bold tracking-wider">{title}</h3>
