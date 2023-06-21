@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
 import { stackLogos } from "./stack";
+import ItemImage from "../components/ItemImage";
 const images = require.context('../../public', true);
 
 export default function ProjectItem({
@@ -30,22 +31,7 @@ export default function ProjectItem({
   
   return (
     <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row">
-      <Link href={projectHref} target='_blank'>
-        <Image 
-          src={projectImg} 
-          alt={title + " logo"}
-          style={{
-            objectFit: "contain", 
-            width: "auto", 
-            minHeight: "50px",
-            maxWidth: "250px", 
-            minWidth: "250px", 
-            backgroundColor: "white",
-            borderRadius: "0.15rem",
-            padding: "2px",
-          }}
-        />
-      </Link>
+      <ItemImage imageSrc={projectImg} title={title} projectHref={projectHref} />
       <span>
         <h3 className="text-2xl font-bold">{title}</h3>
         {description && description.map((item) => (
