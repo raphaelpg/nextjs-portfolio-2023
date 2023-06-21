@@ -338,7 +338,7 @@ export const projectsData: any[] = [
   },
   {
     img: 'yobale-screenshot.webp',
-    title: 'Yobale',
+    title: 'Yobalé',
     description: [
       'Startup application prototype: a platform allowing customers to book transports accross Senegal via email confirmations.',
       'Serverless, it integrates EmailJS SDK, Google Places Autocomplete API and React Datetime calendar pickup library.',
