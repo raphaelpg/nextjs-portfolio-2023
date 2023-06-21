@@ -51,7 +51,7 @@ export default function ProjectItem({
           <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See</a>
           <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github</a>
         </span>
-        <div className="w-full flex flex-row items-start justify-start pt-10 gap-10">
+        <div className="w-full flex flex-row items-start justify-start pt-10 gap-1">
           {stack && stack.map((item) => {
             let logo;
             try {
@@ -65,11 +65,22 @@ export default function ProjectItem({
                 href={stackLogo?.url}
                 target='_blank'
                 key={item}
+                title={item}
+                className="border-2 border-indigo-400 rounded hover:border-pink-500 transition ease-out duration-500"
               >
                 <Image
                   src={logo}
                   alt={item}
-                  className="w-10"
+                  style={{
+                    objectFit: "contain", 
+                    width: "auto", 
+                    maxHeight: "50px",
+                    minHeight: "50px", 
+                    minWidth: "50px", 
+                    backgroundColor: "white",
+                    borderRadius: "0.15rem",
+                    padding: "2px",
+                  }}
                 />
               </Link>
             )
