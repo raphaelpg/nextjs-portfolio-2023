@@ -33,7 +33,7 @@ export default function ProjectItem({
     <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row">
       <ItemImage imageSrc={projectImg} title={title} projectHref={projectHref} />
       <span>
-        <h3 className="text-2xl font-bold">{title}</h3>
+        <h3 className="text-2xl font-bold tracking-wider">{title}</h3>
         {description && description.map((item) => (
           <p className="text-lg text-justify">{item}</p>
         ))}
