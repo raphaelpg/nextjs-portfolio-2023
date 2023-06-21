@@ -91,7 +91,9 @@ export default function ProjectItem({
         </div>
 
         <span className="flex flex-col">
-          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See &#10148;</a>
+          {url.length > 0 && (
+            <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See &#10148;</a>
+          )}
           <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github &#10148;</a>
         </span>
       </span>
