@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
-import { stackLogos } from "../projects/stack";
+import { stackLogos } from "./stack";
 const images = require.context('../../public', true);
 
 export default function ProjectItem({
