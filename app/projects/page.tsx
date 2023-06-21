@@ -4,7 +4,7 @@ import { projectsData } from "./projects"
 
 export default function Projects() {
   return (
-    <ItemsContainer title="Projects:">
+    <ItemsContainer title="">
       {projectsData.map((project) => (
         <ProjectItem
           key={project.id}
