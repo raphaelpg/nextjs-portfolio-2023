@@ -29,17 +29,21 @@ export default function ProjectItem({
   const projectHref = url.length > 0 ? url : repo;
   
   return (
-    <span className="w-full flex flex-row gap-5">
+    <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row">
       <Link href={projectHref} target='_blank'>
         <Image 
           src={projectImg} 
           alt={title + " logo"}
-          className="w-60"
-          // style={{
-          //   width: '250px', 
-          //   minWidth: '250px',
-          //   height: 'fit-content',
-          // }}
+          style={{
+            objectFit: "contain", 
+            width: "auto", 
+            minHeight: "50px",
+            maxWidth: "250px", 
+            minWidth: "250px", 
+            backgroundColor: "white",
+            borderRadius: "0.15rem",
+            padding: "2px",
+          }}
         />
       </Link>
       <span>
@@ -47,11 +51,10 @@ export default function ProjectItem({
         {description && description.map((item) => (
           <p className="text-lg text-justify">{item}</p>
         ))}
-        <span className="flex flex-col">
-          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See</a>
-          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github</a>
-        </span>
-        <div className="w-full flex flex-row items-start justify-start pt-10 gap-1">
+        <p className="pt-5">
+          Stack:
+        </p>
+        <div className="w-full flex flex-wrap flex-row items-start justify-start pb-5 gap-1">
           {stack && stack.map((item) => {
             let logo;
             try {
@@ -86,6 +89,11 @@ export default function ProjectItem({
             )
           })}
         </div>
+
+        <span className="flex flex-col">
+          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See &#10148;</a>
+          <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github &#10148;</a>
+        </span>
       </span>
     </span>
   )
