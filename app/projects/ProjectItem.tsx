@@ -10,7 +10,7 @@ export default function ProjectItem({
   description,
   url,
   repo,
-  stack
+  stack,
 }: {
   img: string,
   title: string,
