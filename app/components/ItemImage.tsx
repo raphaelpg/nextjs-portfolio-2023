@@ -20,6 +20,7 @@ export default function ItemImage({imageSrc, title, projectHref}: {
           backgroundColor: "white",
           borderRadius: "0.15rem",
           padding: "2px",
+          margin: "0 auto",
         }}
       />
     </Link>

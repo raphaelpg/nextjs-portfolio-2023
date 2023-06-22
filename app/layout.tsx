@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body className={inter.className}> */}
-      <body className='max-w-7xl m-auto'>
+      <body className='max-w-7xl m-auto px-2 md:px-12 lg:px-12'>
         <Header/>
         <Navbar/>
         <MainContainer>

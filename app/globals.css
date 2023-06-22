@@ -30,7 +30,7 @@ body {
   background-image:
     linear-gradient(to right, grey 0.1px, transparent 1px),
     linear-gradient(to bottom, grey 0.1px, transparent 1px);
-  padding: 0 3em 0 3em;
+  /* padding: 0 3em 0 3em; */
   min-height: 99vh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;

@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <ItemsContainer title="What I do:">
-      <span className='w-full flex flex-col justify-center pl-20 gap-20 md:flex-col lg:flex-col'>
+      <span className='w-full flex flex-col justify-center gap-20 md:flex-col md:pl-20 lg:flex-col lg:pl-20'>
         <Task imageSrc={web2} title="Web 2" text={[
           "Websites & Web Apps from scratch", 
           "From design to deployment. Single one page style to more complex applications",
