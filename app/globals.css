@@ -19,7 +19,8 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb)); */
+  color: darkgray;
   background: linear-gradient(
       to bottom,
       transparent,
