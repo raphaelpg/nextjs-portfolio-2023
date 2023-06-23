@@ -11,6 +11,10 @@ export const stackLogos: {} = {
     "filename": "chai.svg",
     "url": "https://www.chaijs.com/"
   },
+  "chatgpt": {
+    "filename": "chatgpt.webp",
+    "url": "https://openai.com/blog/chatgpt"
+  },
   "css": {
     "filename": "css.svg",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
@@ -43,6 +47,10 @@ export const stackLogos: {} = {
     "filename": "formspree.webp",
     "url": "https://formspree.io/"
   },
+  "funC": {
+    "filename": "func.webp",
+    "url": "https://docs.ton.org/develop/overview"
+  },
   "ganache": {
     "filename": "ganache.webp",
     "url": "https://www.trufflesuite.com/ganache"
@@ -54,6 +62,10 @@ export const stackLogos: {} = {
   "github": {
     "filename": "github.webp",
     "url": "https://github.com/raphaelpg"
+  },
+  "copilot": {
+    "filename": "copilot.webp",
+    "url": "https://github.com/features/copilot"
   },
   "googleplaces": {
     "filename": "googleplaces.webp",
@@ -151,6 +163,10 @@ export const stackLogos: {} = {
     "filename": "react.webp",
     "url": "https://reactjs.org/docs/getting-started.html"
   },
+  "redux": {
+    "filename": "redux.svg",
+    "url": "https://react-redux.js.org/introduction/getting-started"
+  },
   "sass": {
     "filename": "sass.svg",
     "url": "https://sass-lang.com/documentation"
@@ -171,6 +187,22 @@ export const stackLogos: {} = {
     "filename": "superfluid.webp",
     "url": "https://www.superfluid.finance/"
   },
+  "ton": {
+    "filename": "ton.webp",
+    "url": "https://ton.org/"
+  },
+  "tonconnect": {
+    "filename": "tonconnect.webp",
+    "url": "https://github.com/ton-connect"
+  },
+  "tonkeeper": {
+    "filename": "tonkeeper.webp",
+    "url": "https://ton.app/wallets/tonkeeper"
+  },
+  "tradingview": {
+    "filename": "tradingview.webp",
+    "url": "https://www.tradingview.com/lightweight-charts/"
+  },
   "truffle": {
     "filename": "truffle.svg",
     "url": "https://www.trufflesuite.com/docs/truffle/overview"
@@ -178,6 +210,14 @@ export const stackLogos: {} = {
   "typescript": {
     "filename": "typescript.webp",
     "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+  },
+  "vite": {
+    "filename": "vite.svg",
+    "url": "https://vitejs.dev/"
+  },
+  "walletconnect": {
+    "filename": "walletconnect.svg",
+    "url": "https://docs.walletconnect.com/2.0/"
   },
   "web3": {
     "filename": "web3.webp",

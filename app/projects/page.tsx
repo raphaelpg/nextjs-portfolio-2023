@@ -1,5 +1,5 @@
 import ItemsContainer from "../components/ItemsContainer"
-import ProjectItem from "./ProjectItem"
+import ProjectItem from "../components/ProjectItem"
 import { projectsData } from "./projects"
 
 export default function Projects() {

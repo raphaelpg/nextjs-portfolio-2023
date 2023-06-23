@@ -1,5 +1,52 @@
 export const projectsData: any[] = [
   {
+    img: 'linketon.webp',
+    title: 'Linketon: Telegram bot (Hack-a-TONx w/ DoraHacks 2023)',
+    tag: 'Hackathon',
+    description: [
+      'Linketon is a hackathon project to gather people and create comunities via NFTs minted on TON blockchain.', 
+      'The app is a Telegram Bot that can be opened directly through Telegram and Smart Contracts are on TON blockchain.',
+      'The bot is made with Vite and React, the contracts are coded in FunC with TON SDKs.',
+      'Team project, I developed the bot and the smart contracts.',
+    ],
+    stack: [
+      'react',
+      'vite',
+      'ton',
+      'tonconnect',
+      'tonkeeper',
+      'funC',
+      'typescript',
+      'chatgpt',
+      'copilot',
+    ],
+    repo: 'https://github.com/raphaelpg/doraHacks-ton-hackathon-linketon',
+  },
+  {
+    img: 'dexible.webp',
+    title: 'Dexible: DEX aggregator',
+    tag: 'Professional project',
+    description: [
+      'Dexible is a DEX aggregator that allows users to swap tokens on multiple DEXs at the best price.',
+      'The web app is made with React, Redux and Typescript, using Ethers to interact with the EVM blockchains.',
+      'I worked as a web3 frontend developer on this project, I developed part of the UI and the logic to interact with EVM networks.',
+      'Also integrated a lightweight tradingview chart to display token prices and order params.',
+      'The app is currently stopped.',
+      'Fully remote startup with a team of eight.',
+    ],
+    url: 'https://dexible.io/',
+    repo: '',
+    stack: [
+      'react',
+      'redux',
+      'ethers',
+      'ethereum',
+      'tradingview',
+      'typescript',
+      'walletconnect',
+    ]
+  },
+  {
     img: 'bucketly_logo.webp',
     title: 'Bucketly: Reduce L2 bridging costs (Hackmoney 2021)',
     tag: 'Hackathon',

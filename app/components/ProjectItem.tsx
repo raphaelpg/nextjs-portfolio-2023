@@ -1,6 +1,6 @@
-import ItemImage from "../components/ItemImage";
-import StackImage from "../components/stackImage";
-import { stackLogos } from "./stack";
+import ItemImage from "./ItemImage";
+import StackImage from "./stackImage";
+import { stackLogos } from "../projects/stack";
 const images = require.context('../../public', true);
 
 export default function ProjectItem({
@@ -26,7 +26,7 @@ export default function ProjectItem({
     projectImg = images(`./${"bucketly_logo.webp"}`).default;
   }
 
-  const projectHref = url.length > 0 ? url : repo;
+  const projectHref = url && url.length > 0 ? url : repo;
   
   return (
     <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row" key={title}>
@@ -45,9 +45,12 @@ export default function ProjectItem({
             try {
               logo = images(`./${(stackLogos as any)[item]["filename"]}`).default;
             } catch (error) {
-              logo = images(`./html.svg`).default;
+              logo = images(`./typescript.webp`).default;
             }
-            const stackLogo = (stackLogos as any)[item];
+
+            let stackLogo = (stackLogos as any)[item];
+            stackLogo = stackLogo ?? (stackLogos as any)["typescript"];
+
             return (
               <StackImage title={item} url={stackLogo?.url} logo={logo} />
             )
@@ -55,10 +58,10 @@ export default function ProjectItem({
         </div>
 
         <span className="flex flex-col">
-          {url.length > 0 && (
+          {url && url.length > 0 && (
             <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={url} target='_blank'>See &#10148;</a>
           )}
-          {repo.length > 0 && (
+          {repo && repo.length > 0 && (
             <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github &#10148;</a>
           )}
         </span>
