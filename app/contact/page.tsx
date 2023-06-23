@@ -1,9 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
 import ItemsContainer from '../components/ItemsContainer'
+import StackImage from '../components/stackImage';
 const images = require.context('../../public', true);
-// import GithubLogo from '../images/github.webp'
-// import LinkedInLogo from '../images/linkedin.webp'
 
 export default function Contact() {
 
@@ -13,26 +10,8 @@ export default function Contact() {
   return (
     <ItemsContainer title="">
       <div>Phone: +33 675 582 722</div>
-      <Link 
-        target='_blank'
-        href={"https://github.com/raphaelpg/"}
-      >
-        <Image 
-          className='bg-gray-100 rounded-lg w-auto h-12'
-          src={githubLogo} 
-          alt="Github logo" 
-        />
-      </Link>
-      <Link 
-        target='_blank'
-        href={"https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/"}
-      >
-        <Image 
-          className='bg-gray-100 rounded-lg w-auto h-12'
-          src={linkedInLogo} 
-          alt="LinkedIn logo" 
-        />
-      </Link>
+      <StackImage title="Raphael Pinto Github" url="https://github.com/raphaelpg/" logo={githubLogo} />
+      <StackImage title="Raphael Pinto LinkedIn Profile" url="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" logo={linkedInLogo} />
     </ItemsContainer>
   )
 }
