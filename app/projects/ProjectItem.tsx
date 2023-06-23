@@ -1,7 +1,6 @@
-import Image from "next/image"
-import Link from "next/link";
-import { stackLogos } from "./stack";
 import ItemImage from "../components/ItemImage";
+import StackImage from "../components/stackImage";
+import { stackLogos } from "./stack";
 const images = require.context('../../public', true);
 
 export default function ProjectItem({
@@ -50,28 +49,7 @@ export default function ProjectItem({
             }
             const stackLogo = (stackLogos as any)[item];
             return (
-              <Link
-                href={stackLogo?.url}
-                target='_blank'
-                key={item}
-                title={item}
-                className="border-2 border-indigo-400 rounded hover:border-pink-500 transition ease-out duration-500"
-              >
-                <Image
-                  src={logo}
-                  alt={item}
-                  style={{
-                    objectFit: "contain", 
-                    width: "auto", 
-                    maxHeight: "50px",
-                    minHeight: "50px", 
-                    minWidth: "50px", 
-                    backgroundColor: "white",
-                    borderRadius: "0.15rem",
-                    padding: "2px",
-                  }}
-                />
-              </Link>
+              <StackImage title={item} url={stackLogo?.url} logo={logo} />
             )
           })}
         </div>

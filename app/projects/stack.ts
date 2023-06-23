@@ -141,7 +141,7 @@ export const stackLogos: {} = {
   },
   "polygon": {
     "filename": "polygon.svg",
-    "url": "https://docs.matic.network/"
+    "url": "https://wiki.polygon.technology/"
   },
   "postgres": {
     "filename": "postgres.svg",
