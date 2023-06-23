@@ -10,8 +10,8 @@ export default function Contact() {
   return (
     <ItemsContainer title="">
       <div>Phone: +33 675 582 722</div>
-      <StackImage title="Raphael Pinto Github" url="https://github.com/raphaelpg/" logo={githubLogo} />
-      <StackImage title="Raphael Pinto LinkedIn Profile" url="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" logo={linkedInLogo} />
+      <StackImage title="Github Profile" url="https://github.com/raphaelpg/" logo={githubLogo} />
+      <StackImage title="LinkedIn Profile" url="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" logo={linkedInLogo} />
     </ItemsContainer>
   )
 }
