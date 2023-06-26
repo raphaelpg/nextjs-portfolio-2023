@@ -14,10 +14,11 @@ export const projectsData: any[] = [
       'tailwind',
       'react',
       'trypescript',
+      'copilot',
     ],
   },
   {
-    img: 'nestjs.svg',
+    img: 'uniswap.svg',
     title: 'EVM scripts: transaction parser',
     tag: 'Professional project',
     description: [
@@ -33,6 +34,7 @@ export const projectsData: any[] = [
       'infura',
       'alchemy',
       'pm2',
+      'copilot',
     ],
     url: '',
     repo: 'https://github.com/raphaelpg/',
