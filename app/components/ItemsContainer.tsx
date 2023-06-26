@@ -5,7 +5,7 @@ export default function ItemsContainer({
 }) {
   return (
     <span className="w-full h-full flex flex-col">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <div className="w-full h-full flex flex-col items-center justify-center gap-20 pt-10 pb-10">
         {children}
       </div>
