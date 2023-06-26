@@ -2,7 +2,7 @@ export const projectsData: any[] = [
   {
     img: 'portfolio23.webp',
     title: 'Portfolio 2023',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'New version of my personnal portoflio, the main objective was to learn Next JS and Tailwind.',
       'Solo project.',
@@ -20,7 +20,7 @@ export const projectsData: any[] = [
   {
     img: 'uniswap.svg',
     title: 'EVM scripts: transaction parser',
-    tag: 'Professional project',
+    tag: 'Professional Project',
     description: [
       'Scripts running on a personnal server, parsing evm transactions and returning only interesting token transactions based on specific filters.',
       'Theses scripts were requested by a trader and are available on demand via restricted API server.',
@@ -42,7 +42,7 @@ export const projectsData: any[] = [
   {
     img: 'linketon.webp',
     title: 'Linketon: Telegram bot (Hack-a-TONx w/ DoraHacks 2023)',
-    tag: 'Hackathon',
+    tag: 'Hackathon Project',
     description: [
       'Linketon is a hackathon project to gather people and create comunities via NFTs minted on TON blockchain.', 
       'The app is a Telegram Bot that can be opened directly through Telegram and Smart Contracts are on TON blockchain.',
@@ -65,7 +65,7 @@ export const projectsData: any[] = [
   {
     img: 'dexible.webp',
     title: 'Dexible: DEX aggregator',
-    tag: 'Professional project',
+    tag: 'Professional Project',
     description: [
       'Dexible is a DEX aggregator that allows users to swap tokens on multiple DEXs at the best price.',
       'The web app is made with React, Redux and Typescript, using Ethers to interact with the EVM blockchains.',
@@ -89,7 +89,7 @@ export const projectsData: any[] = [
   {
     img: 'bucketly_logo.webp',
     title: 'Bucketly: Reduce L2 bridging costs (Hackmoney 2021)',
-    tag: 'Hackathon',
+    tag: 'Hackathon Project',
     description: [
       'Bucketly makes it more cost-effective to bridge assets to L2s, in this case Polygon. It batches L1 txns into a bucket with other txns. They all split the fees for bridging.',
       'Doing this helps you save 3 to 5 times as much on fees. For individuals, it can be used for transfers on low cap accounts.',
@@ -113,7 +113,7 @@ export const projectsData: any[] = [
   {
     img: 'adEth-screenshot.webp',
     title: 'AdEth: advertising NFTs (Web3 Weekend Hackathon 2021)',
-    tag: 'Hackathon',
+    tag: 'Hackathon Project',
     description: [
       'AdEth is a POC made during ETH Global Web3 Weekend Hackathon, the purpose is to onboard advertising industry into web3 allowing partnership through NFTs.',
       'The project allows companies to generate an NFT that can be displayed on websites as an ad.',
@@ -138,7 +138,7 @@ export const projectsData: any[] = [
   {
     img: 'irrigate-polygon.webp',
     title: 'Irrigate-app on Matic/Polygon',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Irrigate version handling ERC20 donations deployed on Matic/Polygon testnet (Mumbai).',
       'The client is a static website made with Gatsby and deployed on IPFS through Fleek, using web3 and Metamask to interact with the EVM.',
@@ -160,7 +160,7 @@ export const projectsData: any[] = [
   {
     img: 'sharp-screenshot.webp',
     title: 'Thumbnails-to-Postgres',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Local server to generate thumbnails from an uploaded image and add the local urls to a database.',
       'It uses Sharp library and Postgres database.',
@@ -180,7 +180,7 @@ export const projectsData: any[] = [
   {
     img: 'irrigate-prod.webp',
     title: 'Irrigate-app front end',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Front end of the production version of Irrigate, the platform to gather all NGO\'s and associations accross the world allowing users to send donations from anywhere to everywhere using DAI currency.',
       'The client is a static website made with Gatsby and deployed on IPFS through Fleek, desktop only for the moment.',
@@ -201,7 +201,7 @@ export const projectsData: any[] = [
   {
     img: 'irrigate-prod.webp',
     title: 'Irrigate-app back end',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Back end of the production version of Irrigate, the platform to gather all NGO\'s and associations accross the world allowing users to send donations from anywhere to everywhere using DAI currency.',
       'The server is hosted on Ionos 1&1 and serves data as a REST API from a MongoDb Atlas database.',
@@ -225,7 +225,7 @@ export const projectsData: any[] = [
   {
     img: 'ipfs-portfolio.webp',
     title: 'IPFS-Portfolio',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'My portfolio made with Gatsby and hosted on IPFS.',
       'Deployment has been made with Fleek.',
@@ -248,7 +248,7 @@ export const projectsData: any[] = [
   {
     img: 'IrrigateV2_light.webp',
     title: 'Irrigate-x-Superfluid',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Second version of Irrigate platform, this time integrating Superfluid protocol allowing users to subscribe monthly donations in DAI (Constant Flow Agreement).',
       'Also using Superfluid Instant Distribution Agreement to simultaneously distribute funds to all the associations at the end of the month.',
@@ -271,7 +271,7 @@ export const projectsData: any[] = [
   {
     img: 'irrigate-screenshot.webp',
     title: 'Irrigate-x-Aave Prototype (Planet Wide SOS Hackathon 2020)',
-    tag: 'Hackathon',
+    tag: 'Hackathon Project',
     description: [
       'Hackathon POC: A platform to gather all NGO\'s and associations accross the world allowing users to send donations from anywhere to everywhere using DAI currency.',
       'It integrates Aave Lending Pool protocol allowing donations to be staked and generate interests to cover the transactions and maintenance costs.',
@@ -294,7 +294,7 @@ export const projectsData: any[] = [
   {
     img: 'donato-screenshot.webp',
     title: 'Donato: donation app (ETH Turin 2020 Hackathon)',
-    tag: 'Hackathon',
+    tag: 'Hackathon Project',
     description: [
       'Hackathon project: DonaTo is an application based on Ethereum which aims to bring transparency and accountability to donations.',
       'People who suffered from a disaster can open an account and start receiving donations from around the world.',
@@ -315,7 +315,7 @@ export const projectsData: any[] = [
   {
     img: 'cryptogama-screenshot.webp',
     title: 'Cryptogama: DEX prototype (ALYRA 2020 course validation project)',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Course validation project: Cryptogama is a decentralized exchange prototype for Ethereum ERC-20 tokens that I made as a student project during a blockchain course at Alyra school in Paris. It includes a faucet so you can test it with Metamask on Ropsten network.',
       'Solo project.',
@@ -341,7 +341,7 @@ export const projectsData: any[] = [
   {
     img: 'multisig.webp',
     title: 'MultiSig Wallet',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'MultiSigWallet smart contract where number of owners and minimum confirmations can be set in the contract deployment.',
       '',
@@ -361,7 +361,7 @@ export const projectsData: any[] = [
   {
     img: 'addressmonitoring.webp',
     title: 'Address Monitoring',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Js script to watch pending transactions involving an address on the blockchain.',
       'The script needs an Infura project ID and an ethereum address as parameters.',
@@ -379,7 +379,7 @@ export const projectsData: any[] = [
   {
     img: 'faucet.webp',
     title: 'ERC20 Faucet Example',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'This is an ERC20 Faucet template to deploy on the blockchain.',
       'ERC20 EIP https://eips.ethereum.org/EIPS/eip-20.',
@@ -400,7 +400,7 @@ export const projectsData: any[] = [
   {
     img: 'ERC721.webp',
     title: 'ERC721 Example',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'This is an ERC721 Token template to deploy on ethereum blockchain.',
       'The purpose is to test functions to better understand how they work and what they do.',
@@ -421,7 +421,7 @@ export const projectsData: any[] = [
   {
     img: 'ERC20.webp',
     title: 'ERC20 Example',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'This is an ERC20 Token template to deploy on the blockchain.',
       'One token example has been deployed on Ropsten testnet at \'0x6f1d6BD8C4cca3464aB0DE2FD2BFE532a2B60eC3\' called \'EET\'.',
@@ -442,7 +442,7 @@ export const projectsData: any[] = [
   {
     img: 'yobale-screenshot.webp',
     title: 'Yobalé',
-    tag: 'Professional project',
+    tag: 'Professional Project',
     description: [
       'Startup application prototype: a platform allowing customers to book transports accross Senegal via email confirmations.',
       'Serverless, it integrates EmailJS SDK, Google Places Autocomplete API and React Datetime calendar pickup library.',
@@ -463,7 +463,7 @@ export const projectsData: any[] = [
   {
     img: 'espritvelo-screenshot.webp',
     title: 'Esprit Velo',
-    tag: 'Professional project',
+    tag: 'Professional Project',
     description: [
       'Redesign of the website of a bike store.',
       'Previous existing site on Wordpress, had to change and customize a theme, code additional module.',
@@ -484,7 +484,7 @@ export const projectsData: any[] = [
   {
     img: 'spacedodger-screenshot.webp',
     title: 'SpaceDodger',
-    tag: 'Personal project',
+    tag: 'Personal Project',
     description: [
       'Basic video game prototype: a browser 2D video game made with jQuery.',
       'Solo project.',
@@ -503,7 +503,7 @@ export const projectsData: any[] = [
   {
     img: 'nekosake.webp',
     title: 'NekoSake',
-    tag: 'Professional project',
+    tag: 'Professional Project',
     description: [
       'Website for the japanese sake brand Neko Sake.',
       'Solo project.',

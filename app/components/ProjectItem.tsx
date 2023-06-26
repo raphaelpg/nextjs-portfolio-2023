@@ -1,6 +1,7 @@
 import ItemImage from "./ItemImage";
-import StackImage from "./stackImage";
+import StackImage from "./StackImage";
 import { stackLogos } from "../projects/stack";
+import ProjectTag from "./ProjectTag";
 const images = require.context('../../public', true);
 
 export default function ProjectItem({
@@ -10,13 +11,15 @@ export default function ProjectItem({
   url,
   repo,
   stack,
+  tag,
 }: {
   img: string,
   title: string,
   description: string[],
   url: string,
   repo: string,
-  stack?: string[]
+  stack?: string[],
+  tag?: string,
 }) {
 
   let projectImg; 
@@ -30,8 +33,11 @@ export default function ProjectItem({
   
   return (
     <span className="w-full flex flex-col gap-5 md:flex-row lg:flex-row" key={title}>
+      <span className='flex justify-end translate-y-12 md:hidden lg:hidden'>
+        <ProjectTag tag={tag} />
+      </span>
       <ItemImage imageSrc={projectImg} title={title} projectHref={projectHref} />
-      <span>
+      <span className="w-full">
         <h3 className="text-2xl font-bold tracking-wider">{title}</h3>
         {description && description.map((item) => (
           <p className="text-lg text-justify">{item}</p>
@@ -65,6 +71,9 @@ export default function ProjectItem({
             <a className="text-lg underline text-indigo-500 hover:text-pink-500 transition ease-out duration-500" href={repo} target='_blank'>Github &#10148;</a>
           )}
         </span>
+      </span>
+      <span className='hidden md:flex lg:flex'>
+        <ProjectTag tag={tag} />
       </span>
     </span>
   )

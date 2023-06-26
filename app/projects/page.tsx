@@ -14,6 +14,7 @@ export default function Projects() {
           url={project.url}
           repo={project.repo}
           stack={project.stack}
+          tag={project.tag}
         />
       ))  
       }
