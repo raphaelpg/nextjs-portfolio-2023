@@ -3,6 +3,10 @@ export const stackLogos: {} = {
     "filename": "aave.svg",
     "url": "https://aave.com/"
   },
+  "alchemy": {
+    "filename": "alchemy.svg",
+    "url": "https://www.alchemy.com/"
+  },
   "aws": {
     "filename": "aws.webp",
     "url": "https://aws.amazon.com/"
@@ -87,6 +91,10 @@ export const stackLogos: {} = {
     "filename": "html.svg",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
+  "infura": {
+    "filename": "infura.svg",
+    "url": "https://infura.io/"
+  },
   "ionos": {
     "filename": "ionos.svg",
     "url": "https://www.ionos.com/"
@@ -122,6 +130,14 @@ export const stackLogos: {} = {
   "mongo": {
     "filename": "mongo.svg",
     "url": "https://www.mongodb.com/2"
+  },
+  'nestjs': {
+    "filename": "nestjs.svg",
+    "url": "https://nestjs.com/"
+  },
+  'nextjs': {
+    "filename": "nextjs.svg",
+    "url": "https://nextjs.org/"
   },
   "nft-storage": {
     "filename": "nft-storage.webp",
@@ -186,6 +202,10 @@ export const stackLogos: {} = {
   "superfluid": {
     "filename": "superfluid.webp",
     "url": "https://www.superfluid.finance/"
+  },
+  "tailwind": {
+    "filename": "tailwind.svg",
+    "url": "https://tailwindcss.com/"
   },
   "ton": {
     "filename": "ton.webp",

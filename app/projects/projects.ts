@@ -1,5 +1,43 @@
 export const projectsData: any[] = [
   {
+    img: 'portfolio23.webp',
+    title: 'Portfolio 2023',
+    tag: 'Personal project',
+    description: [
+      'New version of my personnal portoflio, the main objective was to learn Next JS and Tailwind.',
+      'Solo project.',
+    ],
+    url: 'https://future-space.net/raphaelpinto/',
+    repo: 'https://github.com/raphaelpg/portfolio-2023',
+    stack: [
+      'nextjs',
+      'tailwind',
+      'react',
+      'trypescript',
+    ],
+  },
+  {
+    img: 'nestjs.svg',
+    title: 'EVM scripts: transaction parser',
+    tag: 'Professional project',
+    description: [
+      'Scripts running on a personnal server, parsing evm transactions and returning only interesting token transactions based on specific filters.',
+      'Theses scripts were requested by a trader and are available on demand via restricted API server.',
+      'The API server is coded with NestJS and Typescript, using Infura and Alchemy providers to get transactions from blockchains.',
+      'Solo project.',
+    ],
+    stack: [
+      'typescript',
+      'nestjs',
+      'ethers',
+      'infura',
+      'alchemy',
+      'pm2',
+    ],
+    url: '',
+    repo: 'https://github.com/raphaelpg/',
+  },
+  {
     img: 'linketon.webp',
     title: 'Linketon: Telegram bot (Hack-a-TONx w/ DoraHacks 2023)',
     tag: 'Hackathon',
