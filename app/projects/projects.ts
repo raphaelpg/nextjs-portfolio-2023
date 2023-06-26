@@ -7,7 +7,7 @@ export const projectsData: any[] = [
       'New version of my personnal portoflio, the main objective was to learn Next JS and Tailwind.',
       'Solo project.',
     ],
-    url: 'https://future-space.net/raphaelpinto/',
+    url: 'https://raphaelpg.github.io/portfolio-2023/',
     repo: 'https://github.com/raphaelpg/portfolio-2023',
     stack: [
       'nextjs',
