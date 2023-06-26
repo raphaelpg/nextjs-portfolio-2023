@@ -39,14 +39,14 @@ export default function ProjectItem({
       <ItemImage imageSrc={projectImg} title={title} projectHref={projectHref} />
       <span className="w-full">
         <h3 className="text-2xl font-bold tracking-wider">{title}</h3>
-        {description && description.map((item) => (
-          <p className="text-lg text-justify">{item}</p>
+        {description && description.map((item, index) => (
+          <p key={index} className="text-lg text-justify">{item}</p>
         ))}
         <p className="pt-5">
           Stack:
         </p>
         <div className="w-full flex flex-wrap flex-row items-start justify-start pb-5 gap-1">
-          {stack && stack.map((item) => {
+          {stack && stack.map((item, index) => {
             let logo;
             try {
               logo = images(`./${(stackLogos as any)[item]["filename"]}`).default;
@@ -58,7 +58,7 @@ export default function ProjectItem({
             stackLogo = stackLogo ?? (stackLogos as any)["typescript"];
 
             return (
-              <StackImage title={item} url={stackLogo?.url} logo={logo} />
+              <StackImage key={index} title={item} url={stackLogo?.url} logo={logo} />
             )
           })}
         </div>

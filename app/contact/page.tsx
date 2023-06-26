@@ -1,5 +1,5 @@
 import ItemsContainer from '../components/ItemsContainer'
-import StackImage from '../components/stackImage';
+import StackImage from '../components/StackImage';
 const images = require.context('../../public', true);
 
 export default function Contact() {

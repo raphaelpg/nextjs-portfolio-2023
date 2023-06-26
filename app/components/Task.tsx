@@ -6,8 +6,8 @@ export default function Task({imageSrc, title, text}: {imageSrc: string, title: 
       <ItemImage imageSrc={imageSrc} title={title} />
       <span className="w-full flex flex-col justify-center gap-2 text-left">
         <h3 className="text-2xl font-bold tracking-wider">{title}</h3>
-        {text && text.map((item:string) => 
-          <p>{item}</p>
+        {text && text.map((item:string, index:number) => 
+          <p key={index}>{item}</p>
         )}
       </span>
     </span>
